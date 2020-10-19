@@ -1,0 +1,30 @@
+{
+  "name": "hw8",
+  "version": "1.0.0",
+  "description": "hw8",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "react",
+    "bootstrap"
+  ],
+  "author": "Dhvani Kansara",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "guardian-js": "^2.0.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,159 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg-custom-2 {
+  background-image: linear-gradient(15deg, #151F35 0%, #506eae 100%);
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 47px;
+    height: 20px;
+    margin: 0.7rem 1rem 0 1rem
+  }
+  
+  /* Hide default HTML checkbox */
+  
+  /* Hide default HTML checkbox */
+  .switch input {display:none;}
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 0px;
+    bottom: 0px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input.default:checked + .slider {
+    background-color: #444;
+  }
+  input.primary:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(27x);
+    -ms-transform: translateX(27px);
+    transform: translateX(27px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* cards */
+  .card{
+    margin:1.5rem 1.5rem 3.5rem 1.5rem;
+    box-shadow: 2px 5px 10px 0 #B0B0B0;
+    transition: 0.3s;
+    padding: 1.5rem;
+    vertical-align: top;
+    color:black; 
+  }
+  .card img{
+    border: 1px solid lightgrey;
+    padding: 1%;
+  }
+
+  .card a{
+    text-decoration: none;
+    color:black;
+  }
+  .modal {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .modal-container {
+    position: absolute;
+    width: 60%;
+    background: #ffffff;
+    left: 25%;
+    top: 30%;
+    padding: 20px;
+  }
+
+  .modal-footer{
+    text-align: center;
+    display: block;
+    margin-bottom: 2%;
+  }
+
+  .Toastify__toast--default{
+    color:black !important ;
+  }
+
+  .__react_component_tooltip{
+    padding: 0.4em 0.4em !important;
+  }
+
+#truncateThis {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+
+  #truncateSmall {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .css-26l3qy-menu{
+    background-color: white !important;
+  }
+
+  #justify_this{
+    text-align: justify;
+  }
+
+  #navbarSupportedContent{
+    margin-right:1em
+  }
+/*
+  h1{
+    margin:0px !important
+  }*/
